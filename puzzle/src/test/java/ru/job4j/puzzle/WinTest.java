@@ -17,7 +17,7 @@ public class WinTest {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},
         };
-        assertThat(Win.check(board), is(true));
+        assertThat(Win.check(board), is((true)));
     }
 
     @Test
